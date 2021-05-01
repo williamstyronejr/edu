@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import './styles/index.css';
 
 const PathPage = () => {
   const [question1, setQuestion1] = React.useState(0);

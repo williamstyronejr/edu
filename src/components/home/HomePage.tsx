@@ -9,7 +9,7 @@ const HomePage = () => (
     </header>
 
     <div className="">
-      <Link className="" to="/paths">
+      <Link className="home__start" to="/paths">
         Get started
       </Link>
     </div>

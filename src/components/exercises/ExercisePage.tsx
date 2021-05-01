@@ -25,7 +25,7 @@ const ExercisePage = ({ match }: RouteComponentProps<TParams>) => {
   const { id } = match.params;
 
   if (!id) return <NotFound />;
-  const CurrentComp = React.lazy(() => import(`./boards/000-tutorial`));
+  const CurrentComp = React.lazy(() => import(`./boards/example`));
 
   return (
     <section className="exercise">

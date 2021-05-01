@@ -1,0 +1,53 @@
+.codetool {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.codetool__container {
+  width: 100px;
+  height: auto;
+  margin: 0;
+  background-color: pink;
+}
+
+.codetool__header {
+}
+
+.codetool__header:hover {
+  cursor: pointer;
+}
+
+.codetool__content {
+  position: relative;
+}
+
+.codetool__function {
+  background-color: grey;
+}
+
+.codetool__grid {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: green;
+  margin: 10px 0;
+}
+
+.codetool__block {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-color: blue;
+}
+
+.codetool__block:hover {
+  cursor: pointer;
+}
+
+.codetool__block--disabled {
+  background-color: red;
+}
+
+.codetool__block--disabled:hover {
+  cursor: default;
+}
